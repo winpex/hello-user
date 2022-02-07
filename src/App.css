@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.App h1 {
+  color: #ffff;
+}
+.App form input {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.App form button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #005ade;
+  color: white;
+}
+.App form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.App p {
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
